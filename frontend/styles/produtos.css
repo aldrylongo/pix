@@ -1,3 +1,31 @@
-.title {
+.titulo {
   text-align: center;
+}
+
+.container-produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  gap: 1.5rem;
+}
+
+.produto .nome-produto {
+  font-size: 2em;
+}
+
+.produto .container-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
