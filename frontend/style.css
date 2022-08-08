@@ -1,0 +1,25 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    background-color: #effbff;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+}
+
+label{
+font-size: 2rem;
+}
